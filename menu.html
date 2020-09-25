@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="style.css"/>
+    
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar-expand-md navbar-dark bg-dark sticky-top">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#bacciNavBarCallapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="bacciNavBarCallapse">
+          <a class="navbar-brand"
+            ><img
+              src="/bacci-images/logo.png"
+              style="width: 100px; height: 100"
+            />
+          </a>
+          <span id="nav-title" class="navbar-text"> Bacci's of Peoria</span>
+  
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/bacci-home.html"
+                ><i class="fas fa-pizza-slice fa-lg"></i>Home</a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active" href="/menu.html"> Menu</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/catering.html"
+                ><i class="fas fa-utensils fa-lg"></i>Catering</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.peoria.org/?gclid=CjwKCAjw74b7BRA_EiwAF8yHFDWRYoVfYEzHCdRImtwqolUWWDYDoR4ZWRru_1K9yI32J1T006Q9axoCwaAQAvD_BwE"
+                ><i class="far fa-calendar-alt fa-lg"></i> Peoria Events</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+   <section id="menu-page">
+       <header id="menutitle">Menu</header>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab" aria-controls="pizza" aria-selected="true">Pizza</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="appetizers-tab" data-toggle="tab" href="#appetizers" role="tab" aria-controls="appetizers" aria-selected="false">Appetizers</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="sandwiches-tab" data-toggle="tab" href="#sandwiches" role="tab" aria-controls="sandwiches" aria-selected=false>Sandwiches</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="pizza" role="tabpanel" aria-labelledby="pizza-tab"> Toping options:<br>Sausage, Mushroom,Green Peppers, Oions.<br>
+            Small: 12.50<br>Medium: 13.35 <br> Large:15.15 <br> Family:17.15
+
+        </div>
+        <div class="tab-pane fade" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab">Frech Fries:2.75 <br> Cheesy Fries 4.95<br>Fried Ravioli (10 pc) 6.95</div>
+        <div class="tab-pane fade" id="sandwiches" role="tabpanel" aria-labelledby="sandwiches-tab">Polish (With Fries) 5.95 <br>Cheesy Beef 8.95 <br>Meatball Sandwich 8.95 </div>
+      </div>
+
+   </section>
+ 
+<footer class="site-footer">
+   <div class="container">
+     <div class="row">
+       <div class="col-4 col-sm-2 offset-1">
+         <h5>Links</h5>
+         <ul class="list-unstyled">
+           <li><a href="/bacci-home.html">Home</a></li>
+           <li><a href="#">Menu</a></li>
+           <li><a href="catering.html">Catering</a></li>
+           <li><a href="aboutBc.html">About</a></li>
+           <li>
+             <a
+               href="https://www.peoria.org/?gclid=CjwKCAjw74b7BRA_EiwAF8yHFDWRYoVfYEzHCdRImtwqolUWWDYDoR4ZWRru_1K9yI32J1T006Q9axoCwaAQAvD_BwE"
+               >Peoria Events</a
+             >
+           </li>
+         </ul>
+       </div>
+       <div class="col-6 col-sm-5 text-center">
+         <h5>Social</h5>
+         <a
+           class="btn btn-social-icon btn-instagram"
+           href="http://instagram.com/"
+           ><i class="fa fa-instagram"></i
+         ></a>
+         <a
+           class="btn btn-social-icon btn-facebook"
+           href="http://facebook.com/"
+           ><i class="fa fa-facebook"></i
+         ></a>
+         <a
+           class="btn btn-social-icon btn-twitter"
+           href="http://twitter.com/"
+           ><i class="fa fa-twitter"></i
+         ></a>
+         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+           ><i class="fa fa-youtube"></i
+         ></a>
+       </div>
+       <div class="col-sm-4 text-center">
+         <a role="button" class="btn btn-link" href="tel:+13096762222"
+           ><i class="fa fa-phone"></i>(309) 676-2222</a
+         ><br />
+         <a role="button" class="btn-link" href="mailto:bacci.co"
+           ><i class="fa fa-envelope-o"></i> Bacci.co</a
+         >
+       </div>
+     </div>
+   </div>
+ </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a96ab0b890.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

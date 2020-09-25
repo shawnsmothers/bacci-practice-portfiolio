@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="style.css"/>
+    
+    
+    <title>Document</title>
+</head>
+<body id="body">
+    <nav class="navbar-expand-md navbar-dark bg-dark sticky-top">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#bacciNavBarCallapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="bacciNavBarCallapse">
+          <a class="navbar-brand"
+            ><img
+              src="/bacci-images/logo.png"
+              style="width: 100px; height: 100"
+            />
+          </a>
+          <span id="nav-title" class="navbar-text"> Bacci's of Peoria</span>
+  
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/bacci-home.html"
+                ><i class="fas fa-pizza-slice fa-lg"></i>Home</a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="/menu.html"> Menu</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><i class="fas fa-utensils fa-lg"></i>Catering</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.peoria.org/?gclid=CjwKCAjw74b7BRA_EiwAF8yHFDWRYoVfYEzHCdRImtwqolUWWDYDoR4ZWRru_1K9yI32J1T006Q9axoCwaAQAvD_BwE"
+                ><i class="far fa-calendar-alt fa-lg"></i> Peoria Events</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+      <div class="row">
+        <div class="col">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/bacci-home.html">Home</a></li>
+            <li class="breadcrumb-item active">Catering </li>
+          </ol>
+          <h2>Catering</h2>
+          <hr />
+        </div>
+      </div>
+      <section id="cateringPage">
+</section>
+<div class="row row-content align-items-center">
+    <div class="col-sm-4">
+      <h5>Our Address</h5>
+      <address>
+        1222 w Bradley Ave<br />
+        Peoria, IL 61606<br />
+        U.S.A.
+      </address>
+    </div>
+    <div class="col" id="contactInfo">
+      <a role="button" class="btn btn-link" href="tel:+1(309) 676-2222"
+        ><i class="fa fa-phone"></i> (309) 676-2222</a
+      ><br />
+      <a role="button" class="btn-link" href="mailto:Bacci.co"
+        ><i class="fa fa-envelope-o"></i>  Bacci.co</a
+      >
+    </div>
+  </div>
+
+  <div class="row row-content">
+    <div class="col-12">
+      <h2> Let us know how we can make your catering experience remarkable! </h2>
+      <hr />
+    </div>
+    <div class="col-md-10">
+
+<!-- FORM -->
+      <form>
+        <div class=" form-group row">
+          <label for="firstName" class="col-md-2 col-form-label"
+            >first Name</label
+          >
+          <div class="col-md-10">
+            <input
+              type="text" class="form-control"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+            />
+          </div>
+        </div>
+        <div class=" form-group row">
+          <label for="lastName" class="col-md-2 col-form-label" >Last Name</label>
+          <div class="col-md-10">
+          <input
+            type="text" class="form-control"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+          />
+        </div>
+        </div>
+        <div class=" form-group row">
+          <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+          <div class="col-5 col-md-3"><input
+            type="tel" class="form-control"
+            id="areaCode"
+            name="areaCode"
+            placeholder="Area Code"
+          />
+        </div>
+        <div class="col-7">
+          <input type="tel" class="form-control" name="telNum" placeholder="Tel. Number" />
+        </div>
+        </div>
+        <div class=" form-group row">
+          <label for="email" class="col-md-2 col-form-label">Email</label>
+          <div class="col-md-10">
+          <input type="email"  class="form-control" id="email" name="email" placeholder="Email" />
+        </div>
+        </div>
+        
+    
+        <div class=" form-group row">
+          <label for="feedback" class="col-md-2 col-form-label">How can we customize your catering order?</label>
+          <div class="col-md-10">
+          <textarea class="form-control" id="feedback" name="feedback" rows="8"placeholder="Event date/time. How many people are participating in the meal?" ></textarea>
+          </div>
+        </div>
+          <div class=" form-group row">
+              <div class="offset-md-2 col-md-10"></div>
+            <button type="submit" class="btn btn-primary"> Catering for your event </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script
+      src="https://kit.fontawesome.com/a96ab0b890.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

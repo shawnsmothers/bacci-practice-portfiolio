@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Bacci</title>
+  </head>
+  <body>
+    
+
+    <nav class="navbar-expand-md navbar-dark bg-dark sticky-top">
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#bacciNavBarCallapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="bacciNavBarCallapse">
+        <a class="navbar-brand"
+          ><img
+            src="/bacci-images/logo.png"
+            style="width: 100px; height: 100"
+          />
+        </a>
+        <span id="nav-title" class="navbar-text"> Bacci's of Peoria</span>
+
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><i class="fas fa-pizza-slice fa-lg"></i>Home</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/menu.html"> Menu</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/catering.html"
+              ><i class="fas fa-utensils fa-lg"></i>Catering</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.peoria.org/?gclid=CjwKCAjw74b7BRA_EiwAF8yHFDWRYoVfYEzHCdRImtwqolUWWDYDoR4ZWRru_1K9yI32J1T006Q9axoCwaAQAvD_BwE"
+              ><i class="far fa-calendar-alt fa-lg"></i> Peoria Events</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron" style="margin-bottom: 0px">
+      <h1 id="bacciTitle">Bacci Pizzeria</h1>
+      <p id="pText">Home of the Jumbo Slice and More!</p>
+     
+    </div>
+    <main>
+      <section id="landing-page">
+        
+        <!--Carousel section-->
+
+        <div class="container" id="bacciCar">
+          <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+              <div
+                id="homeCarousel"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  
+                  <li data-target="#homeCarousel" class="active" data-slide-to="0"></li>
+                  <li data-target="#homeCarousel" data-slide-to="1"></li>
+                  <li data-target="#homeCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="/bacci-images/extralarge.jpg"
+                      alt="trail Campground"
+                    />
+                    <div class="carousel-caption">
+                      <h3>Excited about the Jumbo!</h3>
+                      <p class="d-none d-sm-block"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="/bacci-images/Facebook_Mamma-Mias2.jpg"
+                      alt="lake campground"
+                    />
+                    <div class="carousel-caption">
+                      <h3>Selfie Before diving in!</h3>
+                      <p class="d-none d-sm-block"></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="/bacci-images/wholejumbo.jpg"
+                      alt="campers tents set up at night"
+                    />
+                    <div class="carousel-caption">
+                      <h3>Fresh out of the stone oven!</h3>
+                      <p class="d-none d-sm-block"></p>
+                    </div>
+                  </div>
+                </div>
+                <!--Carousel button section-->
+                <div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#homeCarousel"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#homeCarousel"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+                  <button class="btn btn-danger btn-sm" id="carouselButton">
+                    <i class="fa fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="minu.html">Menu</a></li>
+              <li><a href="catering.html">Catering</a></li>
+              <li><a href="aboutBc.html">About</a></li>
+              <li>
+                <a
+                  href="https://www.peoria.org/?gclid=CjwKCAjw74b7BRA_EiwAF8yHFDWRYoVfYEzHCdRImtwqolUWWDYDoR4ZWRru_1K9yI32J1T006Q9axoCwaAQAvD_BwE"
+                  >Peoria Events</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+13096762222"
+              ><i class="fa fa-phone"></i>(309) 676-2222</a
+            ><br />
+            <a role="button" class="btn-link" href="mailto:bacci.co"
+              ><i class="fa fa-envelope-o"></i> Bacci.co</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a96ab0b890.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(".carousel").carousel({ interval: 2000 });
+        $("#carouselButton").click(function () {
+          if ($("#carouselButton").children("i").hasClass("fa-pause")) {
+            $(".carousel").carousel("pause");
+            $("#carouselButton").children("i").removeClass("fa-pause");
+            $("#carouselButton").children("i").addClass("fa-play");
+          } else {
+            $(".carousel").carousel("cycle");
+            $("#carouselButton").children("i").removeClass("fa-play");
+            $("#carouselButton").children("i").addClass("fa-pause");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

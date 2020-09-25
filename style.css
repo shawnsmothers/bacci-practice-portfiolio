@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#bacciTitle {
+  font-family: "Original Surfer", cursive;
+}
+
+#pText {
+  font-family: "Original Surfer", cursive;
+  font-size: large;
+}
+
+#landing-page {
+  background-image: url("/bacci-images/display.png");
+  background-size: contain;
+  background-repeat: repeat;
+ height: 100vh;
+}
+#menu-page{
+  background-image: url("/bacci-images/pexels-eneida-nieves-905847.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+#myTabContent{
+  color: rgb(211, 190, 190);
+  text-align: center;
+  margin: 125px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 25px;
+  justify-content:space-evenly ;
+  
+}
+#myTab{
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: larger;
+  font-family: cursive;
+}
+#menutitle{
+  color:green;
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+body{
+ margin: 0;
+  padding: 0;
+
+}
+
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+  border: solid #5637dd;
+  width: 50%;
+  height: auto;
+ 
+  
+ }
+
+.carousel-caption h3 {
+  color: rgb(170, 149, 27);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+#nav-title {
+  color: green;
+  font-size: 40px;
+
+  font-family: "Original Surfer", cursive;
+}
+
+.site-footer {
+  background-color: black;
+}
+
+#cateringPage{
+  background-image: url("/bacci-images/Pasta\ Feast\ Mobile\ Feature_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+  
+}
+#body{
+  background-color: gray;
+}
+#bacciNavBarCallapse{
+   margin-left: 20px;
+}
+#contactInfo{
+ text-align: center;
+
+
+
+}
