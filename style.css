@@ -11,28 +11,44 @@ body {
   font-family: "Original Surfer", cursive;
   font-size: large;
 }
-
+thead{
+  font-size: larger;
+  font-family: cursive;
+}
 #landing-page {
   background-image: url("/bacci-images/display.png");
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+
  height: 100vh;
+
 }
+#bcHomeBody{
+  background-color: gray;
+}
+
 #menu-page{
   background-image: url("/bacci-images/pexels-eneida-nieves-905847.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  
+  height: 100vh                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+}
+
+
+
+#table{
+  margin-right: 30px;
 }
 #myTabContent{
   color: rgb(211, 190, 190);
-  text-align: center;
+  
   margin: 125px;
   font-family: 'Times New Roman', Times, serif;
   font-style: bold;
   font-size: 25px;
-  justify-content:space-evenly ;
+  text-align: start;
+ 
+ 
   
 }
 #myTab{
@@ -47,11 +63,6 @@ body {
   font-size: 75px;
   font-family: 'Times New Roman', Times, serif;
   
-}
-body{
- margin: 0;
-  padding: 0;
-
 }
 
 
@@ -94,6 +105,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+
   
   
 }
